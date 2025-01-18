@@ -1,0 +1,12 @@
+<!-- res/drawable/splash_screen.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fond de couleur -->
+    <item android:drawable="@color/colorPrimary" />
+
+    <!-- Image de fond centrée -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/math_background" /> <!-- Remplacez par votre image -->
+    </item>
+</layer-list>

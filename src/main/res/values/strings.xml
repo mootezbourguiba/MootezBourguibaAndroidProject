@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathExplorer1</string>
+    <string name="logo_description">Description de votre logo</string>
+    <string name="btn_analyze_text">Analyser</string>
+    <string name="tv_results_text">Résultats</string>
+    <string name="hint_function">Entrez une fonction</string>
+    <string name="modify">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="admin">Admin</string>
+    <string name="history">Historique</string>
+    <string name="add">Ajouter</string>
+    <string name="modify_button">Bouton Modifier</string>
+    <string name="delete_button">Bouton Supprimer</string>
+    <string name="admin_button">Bouton Admin</string>
+    <string name="history_button">Bouton Historique</string>
+    <string name="add_button">Bouton Ajouter</string>
+</resources>

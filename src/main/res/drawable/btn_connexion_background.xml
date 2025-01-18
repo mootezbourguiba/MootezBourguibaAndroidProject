@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/colorPrimary" /> <!-- Définit une couleur d'arrière-plan unie -->
+    <corners android:radius="8dp"/> <!--Définit le rayon, plus le rayon est grand, plus l'effet de courbe est visible-->
+</shape>

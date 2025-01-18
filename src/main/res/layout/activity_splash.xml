@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/splash_logo"
+        android:translationY="-10dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MathExplorer"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:alpha="1" /> <!-- alpha set to 1 for visibility -->
+
+    <TextView
+        android:id="@+id/appSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explorez les mathématiques avec nous"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/appName"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="8dp"
+        android:alpha="1" /> <!-- alpha set to 1 for visibility -->
+
+</RelativeLayout>
